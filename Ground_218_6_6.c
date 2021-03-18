@@ -12,13 +12,5 @@ int main()
             scanf("%d",&land[i][j]);
         }
     }
-    for(i=0;i<m;i++)
-    {
-        for(j=0;j<n;j++)
-        {
-            printf("%d ",land[i][j]);
-        }
-        printf("\n");
-    }
     return 0;
 }
